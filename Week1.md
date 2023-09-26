@@ -61,3 +61,21 @@ exploited.
 __removes or reduces a vulnerability__.
 
 ___So, threats are blocked by controlling the vulnerabilities.___
+
+## OSI Security Architecture
+
+- ___ITU-T X.800___ is a standard to satisfy organization managers in
+term of computer and security on their requirements.
+
+- Vendors have developed their security features on products
+and services based on this standard/framework.
+
+3 aspects of security in ITU-T X.800 
+  - ___Security attack___: Any action that __compromises the security__ of
+information owned by an organization.
+  - ___Security mechanism___: A process (or a device incorporating
+such a process) that is designed to __detect, prevent, or recover__
+from a security attack.
+  - ___Security service___: A processing or communication service that
+__enhances the security__ of the data processing systems and the
+information transfers of an organization.
