@@ -45,9 +45,26 @@
   - Time required to break the cipher > the useful lifetime of the information
 
 ## Cryptanalysis and Brute-Force Attack
-- __Cryptanalysis__
+- ___Cryptanalysis___
   - Attack relies on the nature of the algorithm + some knowledge of the general characteristics of the plaintext
   - Attack exploits the characteristics of the algorithm to attempt to deduce a specific plaintext or to deduce the key being used
-- __Brute-force attack__
+- ___Brute-force attack___
   - Attacker tries every possible key on a piece of ciphertext until an intelligible translation into plaintext is obtained
   - On average, half of all possible keys must be tried to achieve success
+
+## Brute-force Attack
+
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/1ea4fbff-65da-485d-832e-f7b8af9f1dc1)
+
+## Types of Attack
+- ___Mathematical attacks___
+  - Based on analysis of underlying mathematics
+- ___Statistical attacks___
+  - Make assumptions about the distribution of letters, pairs of letters (diagrams), triplets of letters (trigrams), etc.
+  - Called models of the language
+  - Examine ciphertext, correlate properties with the assumptions
+
+## Types of Attacks on Encrypted Messages
+
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/a4225e7c-86ea-4e18-b619-6d7538e61b68)
+
