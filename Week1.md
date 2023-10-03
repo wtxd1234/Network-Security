@@ -79,3 +79,54 @@ from a security attack.
   - ___Security service___: A processing or communication service that
 __enhances the security__ of the data processing systems and the
 information transfers of an organization.
+
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/e4f6b924-847e-4ca2-979f-2cdbb1e11cc8)
+
+## Security Attacks
+- The attacks are classified into __2 classes__:
+  - ___Passive attack___: Attempts to learn or make use of information from the system but __does not affect__ system resources
+    - 2 types:
+      - __Release of message contents__: __monitoring__ the content to find __sensitive information__.
+      - __Traffic analysis__: __monitor traffic__ (looking for __special patterns__ such as pattern of messages, password length, location and identity of communicating hosts, …)
+    - __Difficult to detect cause no alteration of data__
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/18e70de1-7bad-43b9-b239-9a74cd80e37d)
+  - ___Active attack___: __Altering__ the system resources and/or __affects__ on the system as well
+    - Alter resources or operations
+    - It involves some modification of the data stream or false statements
+    - 4 types:
+      1. ___Masquerade___: One entity __pretends__ to be another entity (MITM)
+      2. ___Replay___: __Capture__ message and __reply__ to get authorized access
+      3. ___Modification___: __Alter, reorder, and delay__ to an authorized access
+      4. ___Denial of service___: __Prevents or inhibits__ the normal use or management of __communications facilities__
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/378f2f65-cd76-42e3-892f-6f6dda853d3d)
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/7006c5bf-96ad-4d7a-a07c-332574fc5d78)
+
+## Active vs Passive Attacks
+| | Active Attacks | Passive Attacks |
+| :--- | :--- | :--- |
+| Modification of information | ✅ | ❌ |
+| Harm to the system | ✅ | ❌ |
+| Victims informed by system | ✅ | ❌ |
+| Counter and prevent | Difficult | Easy |
+
+## Security Services
+- ITU-T X.800 standards divide security services into __6 categories__:
+  1. ___Authentication___: Assurance that the communicating entity is the one claimed
+  2. ___Access control___: Prevention of the unauthorized use of a resource
+  3. ___Data confidentiality___: Protection of data from unauthorized disclosure
+  4. ___Data integrity___: Assurance that data received is as sent by an authorized entity
+  5. ___Nonrepudiation不可否认性___: Protection against denial by one of the parties in a communication
+  6. ___Availability___: Resource accessible/usable
+
+## Security Mechanism
+- ___Cryptographic algorithms___ (encipherment): The use of __mathematical algorithms__ to transform data into a form that is not __readily intelligible__
+- ___Data integrity___: It covers a variety of mechanisms used to __ensure the integrity__ of a data unit or stream of data units
+- ___Digital signature___: Data appended to, or a cryptographic transformation of, a data unit that allows a recipient of the data unit to __prove the source and integrity__ of the data unit and protect against __forgery伪造__
+- ___Authentication exchange___: A mechanism intended to __ensure the identity__ of an entity by means of information exchange
+- ___Traffic padding___: The insertion of bits into gaps in a data stream to __frustrate阻扰 traffic analysis__ attempts
+- ___Routing control___: Enables selection of particular physically or logically __secure routes__ for certain data and allows routing changes, especially when a breach of security is suspected
+- ___Notarization公证___: The use of a __Trusted Third Party (TTP)__ to ensure certain properties of a data exchange
+- ___Access control___: A variety of mechanisms that enforce __access rights__ to resources
+
+## Relationship Between Security Services and Mechanisms
+![image](https://github.com/wtxd1234/Network-Security/assets/41671135/b5d9e1d0-978f-4b50-97fa-8254069020fc)
