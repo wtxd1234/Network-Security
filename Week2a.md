@@ -33,3 +33,21 @@
    - The selection of “Algorithm” and “key” is critical in providing secure communication
 
 ## Symmetric Cryptography Mechanism
+- 2 requirements for secure symmetric encryption:
+  1. A strong encryption algorithm
+  2. A secret key known only to sender/ receiver
+
+## Encryption Scheme Security
+- ___Unconditional security___
+  - The cipher __can't be broken no matter how much computer power or time is available__ since the ciphertext provides insufficient information to uniquely determine the corresponding plaintext
+- ___Computational security___
+  - Cost of breaking the cipher > Value of the encrypted information
+  - Time required to break the cipher > the useful lifetime of the information
+
+## Cryptanalysis and Brute-Force Attack
+- __Cryptanalysis__
+  - Attack relies on the nature of the algorithm + some knowledge of the general characteristics of the plaintext
+  - Attack exploits the characteristics of the algorithm to attempt to deduce a specific plaintext or to deduce the key being used
+- __Brute-force attack__
+  - Attacker tries every possible key on a piece of ciphertext until an intelligible translation into plaintext is obtained
+  - On average, half of all possible keys must be tried to achieve success
