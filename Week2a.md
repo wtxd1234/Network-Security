@@ -2,7 +2,7 @@
 ## Cryptography is Everywhere
 - Secure Communications
 - Encrypting files on the computer
-- data Protection (DVD, Blu-ray...)
+- Data protection (DVD, Blu-ray...)
 - Authentication, Digital Signature, Secret Sharing, E-Voting, E-Coin...
 
 ## Cryptography Goals
@@ -21,4 +21,15 @@
 - __Cryptography__- Study of encryption principles/methods
 - __Cryptoanalysis (code breaking)__– Study of principles/methods of deciphering cipher text without knowing key
 - __Cryptology__– Field of both cryptography and cryptoanalysis
+
 ![image](https://github.com/wtxd1234/Network-Security/assets/41671135/f0562da6-094b-4811-8519-914ad838dee0)
+
+## Different Scenarios of Symmetric Cryptography
+1. ___Single-Use Key (one-time key)___
+   - Only used to encrypt a message
+   - e.g. Each email is encrypted with a different key
+2. ___Multi-Use Key (Many-time key)___
+   - Used to encrypt multiple messages
+   - The selection of “Algorithm” and “key” is critical in providing secure communication
+
+## Symmetric Cryptography Mechanism
