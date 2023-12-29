@@ -1,132 +1,55 @@
-# Introduction
-## Cybersecurity
+## Active and passive attacks 
+- Active attacks are those that __alter__ or disrupt the system resources or affect the normal functioning of the system. Passive attacks are those that __only observe or analyze__ the system data or traffic without affecting it.
 
-- Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks.
-- Cybersecurity measures are designed to combat threats against networked systems and applications.
+## Active vs Passive attack
+- Active attacks are __easier to detect but harder to prevent__, while passive attacks are __harder to detect but easier to prevent__.
+- Active attacks can cause __damage or denial of service__, while passive attacks can cause __loss of confidentiality or privacy__.
 
-## Cybersecurity Subsets
+## Name and define the (key) security principles 
+The key security principles are __confidentiality, integrity, availability, authenticity, accountability, nonrepudiation__, and __reliability__.
+1. __Confidentiality__ means __preserving unauthorized access__ to the data.
+2. __Integrity__ means assuring that data are __changed only in a specified and authorized manner__.
+3. __Availability__ means ensuring that authorized users can __access data and resources all the time__.
+4. __Authenticity__ means __verifying the identity__ and genuineness of an entity.
+5. __Accountability__ means __tracing the actions__ and responsibilities of an entity.
+6. __Nonrepudiation__ means __preventing an entity from denying a previous action__ or commitment.
+7. __Reliability__ means ensuring the consistent and __correct functioning of the system__.
 
-- ___Information security___:
-  - refers to the preservation of confidentiality, integrity, and availability of __information__.
-  - Additionally, authenticity, accountability, nonrepudiation, and reliability can also be involved.
+## Name and define the main security services
+The main security services base on the __ITU-T X.800__ standard are __authentication, access control, data confidentiality, data integrity, nonrepudiation__, and __availability__.
+1. __Authentication__ means __proving the identity of an entity__ by means of information exchange.
+2. __Access control__ means enforcing the rights and __permissions__ of an entity __to use a resource__.
+3. __Data confidentiality__ means __protecting data from unauthorized disclosure__.
+4. __Data integrity__ means ensuring that data received is as __sent by an authorized entity__.
+5. __Nonrepudiation__ means __providing evidence__ of the origin and delivery of data.
+6. __Availability__ means ensuring that resources are __accessible and usable by authorized entities__.
 
-- ___Network security___ :
-  - Protecting the __networks and their services__ from unwanted users, attacks, and intrusions.
- 
-## Security Key Principle/Objectives:
+## Name and define the main security mechanisms 
+The main security mechanisms are __cryptographic algorithms, data integrity algorithms, digital signatures, authentication exchanges, traffic padding, routing control, notarization__, and __access control__. 
+1. __Cryptographic algorithms__ are __mathematical functions__ that __transform data into unintelligible forms using keys__.
+2. __Data integrity algorithms__ are methods that __generate and verify checksums__ or hashes of data to __detect any alteration__.
+3. __Digital signatures__ are data appended to or transformed from a data unit that __prove the source and integrity__ of the data unit.
+4. __Authentication exchanges__ are protocols that __enable the parties to verify each other's identity and credentials__.
+5. __Traffic padding__ is the __insertion of bits into gaps in a data stream__ to __frustrate traffic analysis__.
+6. __Routing control__ is the __selection of secure routes__ for data transmission and the __ability to change routes__ when needed.
+7. __Notarization__ is the use of a __trusted third party__ to __attest certain properties of a data exchange__.
+8. __Access control__ is the __implementation of policies and rules__ that regulate the access to resources.
 
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/d00bf32c-4883-4c32-a0ee-12f632271e81)
+## DOS and DDOS
+- __DOS__ stands for __denial of service__, which is an attack that __prevents or impairs the authorized use of a system or resource__.<br>![image](https://github.com/wtxd1234/Network-Security/assets/41671135/bb014707-6880-404e-a84a-59608c8a1283)
 
-## Security Principle: CIA Triad
+- __DDOS__ stands for __distributed denial of service__, which is an attack that __employs multiple compromised devices to launch a coordinated DOS attack against a target__.
 
-- __Confidentiality__: Preserving __unauthorized access__ to the data.
-  - Data Confidentiality
-  - Privacy
+## Different types of attacks 
+There are many types of attacks, but some common ones are __replay, modification, masquerade, man-in-the-middle, phishing, spoofing, malware__, and __social engineering__. 
+1. __Replay__ is an attack that involves __retransmitting a previously captured message to produce an unauthorized effect__.<br>![image](https://github.com/wtxd1234/Network-Security/assets/41671135/97a66cfc-0a6c-49c5-a844-3e2040cf8e13)
 
-- __Integrity__: Assures that data are __changed__ only in a specified and authorized manner.
-  - Data Integrity
-  - System Integrity
- 
-- __Availability__: Authorized users should be __able to access data all the time__. The systems and services are not denied to authorized users.
+2. __Modification__ is an attack that involves __altering the content or format of a message__ to deceive the receiver or cause damage.<br>![image](https://github.com/wtxd1234/Network-Security/assets/41671135/cdf45578-9cbf-411c-a5ac-e1d6a52981bb)
 
-## Additional Security Principle
+3. __Masquerade__ is an attack that involves __impersonating another entity to gain unauthorized access__ or privileges.<br>![image](https://github.com/wtxd1234/Network-Security/assets/41671135/f34a313d-484c-4111-8011-f6db9d5b7fce)
 
-- __Authenticity真实性__: Being __genuine真实__ and being able to be verified and trusted.
-
-- __Accountability可追踪性__: __Tracing__ the entity (have particular responsibilities).
-
-## Essential Objectives of Information and Network Security
-
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/2ff16f01-35bf-49e4-8580-5f3dd9bcd0a5)
-
-## CIA Triad ATM Example
-
-- It provides __confidentiality__ by requiring two-factor __authentication__
-(both a physical card and a PIN code) before allowing access to
-data.
-- The ATM and bank software enforces data __integrity__ by ensuring
-that any transfers or withdrawals made via the machine are
-reflected in the accounting for the user's bank account.
-- The machine provides __availability__ because it's in a public place
-and is accessible even when the bank branch is closed.
-
-## Other Security Terms
-
-- ___Threats___: A __potential潜在__ for violation of security.
-- ___Attack___: An __assault突击__ on system security that derives from an
-intelligent threat.
-- ___Vulnerability___: __Weakness__ in the security system that might be
-exploited.
-- ___Control___: An action, device, procedure, or technique that
-__removes or reduces a vulnerability__.
-
-___So, threats are blocked by controlling the vulnerabilities.___
-
-## OSI Security Architecture
-
-- ___ITU-T X.800___ is a standard to satisfy organization managers in
-term of computer and security on their requirements.
-
-- Vendors have developed their security features on products
-and services based on this standard/framework.
-
-3 aspects of security in ITU-T X.800 
-  - ___Security attack___: Any action that __compromises the security__ of
-information owned by an organization.
-  - ___Security mechanism___: A process (or a device incorporating
-such a process) that is designed to __detect, prevent, or recover__
-from a security attack.
-  - ___Security service___: A processing or communication service that
-__enhances the security__ of the data processing systems and the
-information transfers of an organization.
-
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/e4f6b924-847e-4ca2-979f-2cdbb1e11cc8)
-
-## Security Attacks
-- The attacks are classified into __2 classes__:
-  - ___Passive attack___: Attempts to learn or make use of information from the system but __does not affect__ system resources
-    - 2 types:
-      - __Release of message contents__: __monitoring__ the content to find __sensitive information__.
-      - __Traffic analysis__: __monitor traffic__ (looking for __special patterns__ such as pattern of messages, password length, location and identity of communicating hosts, …)
-    - __Difficult to detect cause no alteration of data__
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/18e70de1-7bad-43b9-b239-9a74cd80e37d)
-  - ___Active attack___: __Altering__ the system resources and/or __affects__ on the system as well
-    - Alter resources or operations
-    - It involves some modification of the data stream or false statements
-    - 4 types:
-      1. ___Masquerade___: One entity __pretends__ to be another entity (MITM)
-      2. ___Replay___: __Capture__ message and __reply__ to get authorized access
-      3. ___Modification___: __Alter, reorder, and delay__ to an authorized access
-      4. ___Denial of service___: __Prevents or inhibits__ the normal use or management of __communications facilities__
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/378f2f65-cd76-42e3-892f-6f6dda853d3d)
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/7006c5bf-96ad-4d7a-a07c-332574fc5d78)
-
-## Active vs Passive Attacks
-| | Active Attacks | Passive Attacks |
-| :--- | :--- | :--- |
-| Modification of information | ✅ | ❌ |
-| Harm to the system | ✅ | ❌ |
-| Victims informed by system | ✅ | ❌ |
-| Counter and prevent | Difficult | Easy |
-
-## Security Services
-- ITU-T X.800 standards divide security services into __6 categories__:
-  1. ___Authentication___: Assurance that the communicating entity is the one claimed
-  2. ___Access control___: Prevention of the unauthorized use of a resource
-  3. ___Data confidentiality___: Protection of data from unauthorized disclosure
-  4. ___Data integrity___: Assurance that data received is as sent by an authorized entity
-  5. ___Nonrepudiation不可否认性___: Protection against denial by one of the parties in a communication
-  6. ___Availability___: Resource accessible/usable
-
-## Security Mechanism
-- ___Cryptographic algorithms___ (encipherment): The use of __mathematical algorithms__ to transform data into a form that is not __readily intelligible__
-- ___Data integrity___: It covers a variety of mechanisms used to __ensure the integrity__ of a data unit or stream of data units
-- ___Digital signature___: Data appended to, or a cryptographic transformation of, a data unit that allows a recipient of the data unit to __prove the source and integrity__ of the data unit and protect against __forgery伪造__
-- ___Authentication exchange___: A mechanism intended to __ensure the identity__ of an entity by means of information exchange
-- ___Traffic padding___: The insertion of bits into gaps in a data stream to __frustrate阻扰 traffic analysis__ attempts
-- ___Routing control___: Enables selection of particular physically or logically __secure routes__ for certain data and allows routing changes, especially when a breach of security is suspected
-- ___Notarization公证___: The use of a __Trusted Third Party (TTP)__ to ensure certain properties of a data exchange
-- ___Access control___: A variety of mechanisms that enforce __access rights__ to resources
-
-## Relationship Between Security Services and Mechanisms
-![image](https://github.com/wtxd1234/Network-Security/assets/41671135/b5d9e1d0-978f-4b50-97fa-8254069020fc)
+4. __Man-in-the-middle__ is an attack that involves intercepting and __modifying the communication between two parties without their knowledge__.
+5. __Phishing__ is an attack that involves __sending fraudulent emails or messages__ that appear to come from legitimate sources to __trick the recipients into revealing sensitive information__ or clicking malicious links.
+6. __Spoofing__ is an attack that __involves falsifying the source__ or identity of a message or packet to __mislead the receiver or bypass security measures__.
+7. __Malware__ is an attack that involves __installing malicious software on a device or system__ to compromise its functionality or security.
+8. __Social engineering__ is an attack that involves __manipulating or deceiving people into performing actions__ or divulging information that benefit the attacker.
