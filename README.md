@@ -36,3 +36,25 @@ This week provides an understanding of basic cryptographic concepts, symmetric c
   - **DES vs. 3DES**: Comparison of DES with its more secure variant, 3DES, highlighting differences in key size, block size, number of rounds, and overall security strength.
 
 This week covers advanced topics in modern cryptography, focusing on the structure and operation of block ciphers, especially DES and its variant 3DES.
+
+# Week 4
+
+- AES is a symmetric block cipher that operates on 128-bit blocks and supports key lengths of 128, 192, and 256 bits.
+- AES uses a substitution-permutation network (SPN) structure, which consists of four stages: SubBytes, ShiftRows, MixColumns, and AddRoundKey.
+- AES has 10, 12, or 14 rounds, depending on the key length. Each round uses a subkey derived from the main key using a key expansion algorithm.
+- AES is fast, simple, and resistant to known attacks.
+
+# Week 5
+
+- RC4 is a symmetric stream cipher that encrypts one byte at a time using a pseudorandom keystream.
+- RC4 has two steps: key scheduling algorithm (KSA) and pseudorandom generation algorithm (PRGA).
+- KSA initializes a 256-byte state vector S using a variable-length key.
+- PRGA generates the keystream by permuting and swapping the elements of S.
+- RC4 is fast and easy to implement, but has several vulnerabilities and weaknesses.
+
+# Week 6
+
+- Hash functions are one-way functions that map an arbitrary-length input to a fixed-length output, called a hash or a digest.
+- Hash functions are used for various purposes, such as message authentication, digital signatures, password storage, and pseudorandom number generation.
+- Hash functions must satisfy three properties: preimage resistance, second preimage resistance, and collision resistance.
+- Secure Hash Algorithm (SHA) is a family of hash functions developed by NIST, which includes SHA-1, SHA-2, and SHA-3. SHA algorithms have different output sizes and security levels.
