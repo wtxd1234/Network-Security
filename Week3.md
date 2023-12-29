@@ -3,12 +3,13 @@
 
 ## Main functions/operations of symmetric algorithms
 - The main functions or operations of symmetric algorithms are __substitution__ and __permutation__.
-- Substitution replaces each plaintext element or group of elements with a corresponding ciphertext element or group of elements. Permutation changes the order of the elements in the plaintext or ciphertext without altering their values.
+- __Substitution__ replaces each plaintext element or group of elements with a corresponding ciphertext element or group of elements. 
+- __Permutation__ changes the order of the elements in the plaintext or ciphertext without altering their values.
 
 ## Diffusion vs confusion 
 Diffusion is a property that hides the relationship between the plaintext and the ciphertext by spreading the influence of each plaintext bit over many ciphertext bits. Confusion is a property that hides the relationship between the ciphertext and the key by making the mapping between them complex and unpredictable.
 
-##Function of S-BOX 
+## Function of S-BOX 
 An S-BOX (substitution box) is a function that maps a fixed number of input bits to a fixed number of output bits, usually in a non-linear way. It provides both confusion and diffusion properties, contributing to the overall security of the cipher.
 
 ## Function of P-BOX 
