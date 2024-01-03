@@ -10,12 +10,12 @@
 ## Hash Functions Applications in Real-World 
 - __Message Authentication Codes (MACs)__: A MAC is a hash value that is __computed using a secret key and appended to a message__.
   - The __receiver can verify the authenticity and integrity of the message by recomputing the MAC using the same key and comparing it with the received MAC__.
-- Digital Signatures: A digital signature is a hash value that is encrypted using the sender's private key and attached to a message.
-  - The receiver can verify the authenticity and integrity of the message by decrypting the signature using the sender's public key and comparing it with the hash value of the message.
-- Password Storage: A password can be hashed and stored in a database instead of storing it in plaintext.
+- __Digital Signatures__: A digital signature is a __hash value__ that is __encrypted using the sender's private key__ and __attached to a message__.
+  - The __receiver can verify the authenticity and integrity of the message by decrypting the signature using the sender's public key__ and __comparing it with the hash value of the message__.
+- __Password Storage__: A password can be __hashed and stored in a database__ instead of storing it in plaintext.
   - This way, even if the database is compromised, the attacker cannot recover the original password from the hash value.
-  - To authenticate a user, the system can hash the entered password and compare it with the stored hash value.
-- Intrusion Detection and Virus Detection: A hash value can be used to identify a file or a program and detect any unauthorized changes or modifications.
+  - To __authenticate a user__, the system can __hash the entered password and compare it with the stored hash value__.
+- __Intrusion Detection and Virus Detection__: A hash value can be used to __identify a file or a program__ and __detect any unauthorized changes or modifications__.
   - For example, an antivirus software can compare the hash values of the files on a system with a database of known hash values of malicious files and alert the user if any match is found.
 - Pseudorandom Function (PRF) and Pseudorandom Number Generator (PRNG): A PRF is a function that takes an input and produces an output that is indistinguishable from random.
   - A PRNG is a function that generates a sequence of numbers that are indistinguishable from random.
