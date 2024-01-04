@@ -1,8 +1,9 @@
 ## SSL/TLS Protocols
-- **SSL/TLS protocols**: They are protocols that provide security services to application layer protocols using TCP, such as HTTP, SMTP, FTP, etc¹[1]. They encrypt the data exchanged between the client and the server, authenticate the entities using certificates, and ensure the integrity of the messages using MACs.
+- **SSL/TLS protocols**: They are protocols that __provide security services to application layer protocols using TCP__, such as HTTP, SMTP, FTP, etc. They __encrypt the data exchanged__ between the client and the server, __authenticate the entities using certificates__, and __ensure the integrity of the messages using MACs__.
 
 ## Firewall rules
-- **Firewall rules**: They are rules that specify the action to be taken for each incoming or outgoing packet based on the source and destination IP addresses, ports, protocols, and other criteria. A firewall table is a data structure that stores the firewall rules and matches them with the packets. A possible firewall table is:
+- **Firewall rules**: They are __rules that specify the action to be taken for each incoming or outgoing packet__ based on the source and destination IP addresses, ports, protocols, and other criteria.
+- **Firewall table**: It is a __data structure that stores the firewall rules and matches them with the packets__. A possible firewall table is:
 
 | Source IP | Destination IP | Source Port | Destination Port | Protocol | Action |
 | --- | --- | --- | --- | --- | --- |
@@ -13,4 +14,7 @@
 | Any | Any | Any | Any | Any | Deny |
 
 ## PGP and S/MIME
-- **PGP and S/MIME**: They are standards for providing confidentiality and authentication for electronic mail systems. They use public-key cryptography and digital signatures to encrypt and sign the email messages. PGP is an open and decentralized system, while S/MIME is a centralized and standardized system. Both systems rely on certificates to verify the public keys of the entities.
+- **PGP and S/MIME**: They are __standards for providing confidentiality and authentication for electronic mail systems__.
+- They use __public-key cryptography and digital signatures to encrypt__ and __sign the email messages__.
+- __PGP__ is an __open and decentralized system__, while __S/MIME__ is a __centralized and standardized system__.
+- Both systems __rely on certificates to verify the public keys of the entities__.
